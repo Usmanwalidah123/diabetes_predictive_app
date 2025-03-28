@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score
 # 1. Load Data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("diabetes.csv(2)")
+    df = pd.read_csv("diabetes.csv")
     return df
 
 # 2. Train Model
